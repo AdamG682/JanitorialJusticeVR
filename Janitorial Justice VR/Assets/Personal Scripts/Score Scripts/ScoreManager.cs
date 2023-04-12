@@ -25,7 +25,7 @@ public class ScoreManager : MonoBehaviour
         score += points;
         scoreCounter.text = ": " + score;
 
-        if (score >= 40)
+        if (score >= 20)
         {
             Debug.Log("Winner");
             winAudio.Play();
