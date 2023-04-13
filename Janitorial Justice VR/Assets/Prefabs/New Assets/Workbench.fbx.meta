@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 5b558c0a8bce08148a4a54df50d686d1
+guid: f5c1d0ac8648cf944920b6c5e8d1b1df
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WoodCrate.002
-    second: {fileID: 2100000, guid: fa407e0746738ec4cbb5aa14a54037be, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
