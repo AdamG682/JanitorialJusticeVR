@@ -9,7 +9,8 @@ public class ScoreManager : MonoBehaviour
     public AudioSource winAudio;
 
     [SerializeField] GameObject levelOneInterface;
-    [SerializeField] GameObject scoreInterface;
+    //[SerializeField] GameObject scoreInterface;
+    //[SerializeField] GameObject wristInterface;
 
     private float score;
     public TextMeshProUGUI scoreCounter;
@@ -29,7 +30,7 @@ public class ScoreManager : MonoBehaviour
         {
             Debug.Log("Winner");
             winAudio.Play();
-            scoreInterface.SetActive(false);
+            //scoreInterface.SetActive(false);
             levelOneInterface.SetActive(true);
         }
     }
