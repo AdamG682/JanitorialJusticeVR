@@ -21503,6 +21503,7 @@ MeshFilter:
   m_GameObject: {fileID: 1869725309}
   m_Mesh: {fileID: -6243634853225957487, guid: 3e356953ebb8494439fff6c9744e9ea0, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1885428982
 GameObject:
   m_ObjectHideFlags: 0
@@ -21686,6 +21687,8 @@ MeshFilter:
   m_GameObject: {fileID: 1885428982}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 =======
+=======
+>>>>>>> parent of 6fe028a (Fixing Teleport Ground)
 --- !u!1001 &1870977029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21773,6 +21776,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1870977029}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 6fe028a (Fixing Teleport Ground)
+=======
 >>>>>>> parent of 6fe028a (Fixing Teleport Ground)
 --- !u!1 &1948793541
 GameObject:
