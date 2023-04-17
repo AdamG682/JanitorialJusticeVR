@@ -9,10 +9,8 @@ public class ScoreManager : MonoBehaviour
     public AudioSource winAudio;
 
     [SerializeField] GameObject levelOneInterface;
-    //[SerializeField] GameObject scoreInterface;
-    //[SerializeField] GameObject wristInterface;
 
-    private float score;
+    public float score;
     public TextMeshProUGUI scoreCounter;
     
     // Start is called before the first frame update
@@ -32,6 +30,7 @@ public class ScoreManager : MonoBehaviour
             winAudio.Play();
             //scoreInterface.SetActive(false);
             levelOneInterface.SetActive(true);
+            Timer.timerOn = false;
         }
     }
 }
