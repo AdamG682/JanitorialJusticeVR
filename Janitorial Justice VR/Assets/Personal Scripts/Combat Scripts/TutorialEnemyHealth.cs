@@ -29,6 +29,7 @@ public class TutorialEnemyHealth : MonoBehaviour
             Destroy(gameObject);
             winAudio.Play();
             levelThreeInterface.SetActive(true);
+            Timer.timerOn = false;
         }
     }
 }

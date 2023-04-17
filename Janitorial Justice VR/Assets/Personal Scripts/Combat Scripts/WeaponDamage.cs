@@ -6,7 +6,6 @@ public class WeaponDamage : MonoBehaviour
 {
 
     public AudioSource audioPlayer;
-    public AudioSource audioPlayer1;
     
     private float wetFloor = 5;
     private float sponge = 1;
@@ -20,7 +19,6 @@ public class WeaponDamage : MonoBehaviour
             if (other.gameObject.TryGetComponent<TutorialEnemyHealth>(out TutorialEnemyHealth enemyComponent))
             {
                 audioPlayer.Play();
-                audioPlayer1.Play();
                 enemyComponent.TakeDamage(wetFloor);
                 Debug.Log("5 Damage Taken");
             }
@@ -32,7 +30,6 @@ public class WeaponDamage : MonoBehaviour
             if (other.gameObject.TryGetComponent<TutorialEnemyHealth>(out TutorialEnemyHealth enemyComponent))
             {
                 audioPlayer.Play();
-                audioPlayer1.Play();
                 enemyComponent.TakeDamage(sponge);
                 Debug.Log("1 Damage Taken");
             }

@@ -7,7 +7,7 @@ public class ScoreCount : MonoBehaviour
 
     public AudioSource scoreAudio;
 
-    private float brick = 1;
+    private float brick = 5;
 
     private void OnTriggerEnter(Collider other)
     {  
@@ -18,7 +18,7 @@ public class ScoreCount : MonoBehaviour
                 scoreAudio.Play();
                 trashComponent.UpdatedScore(brick);
                 Destroy(gameObject);
-                Debug.Log("1 Point");
+                Debug.Log("5% Clean");
             }
         }
 

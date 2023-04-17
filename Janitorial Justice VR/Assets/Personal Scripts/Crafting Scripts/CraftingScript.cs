@@ -18,6 +18,7 @@ public class CraftingScript : MonoBehaviour
             ComboBroom.SetActive(true);
             levelTwoInterface.SetActive(true);
             Debug.Log("Crafted");
+            Timer.timerOn = false;
         }
 
         //if (other.gameObject.CompareTag("Broom") && gameObject.CompareTag("CraftCollider"))

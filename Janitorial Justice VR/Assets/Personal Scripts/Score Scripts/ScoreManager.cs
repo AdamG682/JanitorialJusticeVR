@@ -13,7 +13,6 @@ public class ScoreManager : MonoBehaviour
     public float score;
     public TextMeshProUGUI scoreCounter;
     
-    // Start is called before the first frame update
     void Start()
     {
         UpdatedScore(0);
@@ -22,13 +21,12 @@ public class ScoreManager : MonoBehaviour
     public void UpdatedScore (float points)
     {
         score += points;
-        scoreCounter.text = ": " + score;
+        scoreCounter.text = score + "%";
 
-        if (score >= 20)
+        if (score >= 100)
         {
-            Debug.Log("Winner");
+            Debug.Log("All Cleaned Up");
             winAudio.Play();
-            //scoreInterface.SetActive(false);
             levelOneInterface.SetActive(true);
             Timer.timerOn = false;
         }
