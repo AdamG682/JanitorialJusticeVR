@@ -7,6 +7,8 @@ using TMPro;
 public class CraftingScript : MonoBehaviour
 {
 
+    public AudioSource backgroundAudio;
+
     //private float broom = 1;
     [SerializeField] GameObject levelTwoInterface;
     [SerializeField] GameObject ComboBroom;
@@ -19,6 +21,7 @@ public class CraftingScript : MonoBehaviour
             levelTwoInterface.SetActive(true);
             Debug.Log("Crafted");
             Timer.timerOn = false;
+            backgroundAudio.Stop();
         }
 
         //if (other.gameObject.CompareTag("Broom") && gameObject.CompareTag("CraftCollider"))

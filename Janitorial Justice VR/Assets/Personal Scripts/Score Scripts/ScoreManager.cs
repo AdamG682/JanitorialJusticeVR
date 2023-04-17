@@ -7,6 +7,7 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public AudioSource winAudio;
+    public AudioSource backgroundAudio;
 
     [SerializeField] GameObject levelOneInterface;
 
@@ -27,6 +28,7 @@ public class ScoreManager : MonoBehaviour
         {
             Debug.Log("All Cleaned Up");
             winAudio.Play();
+            backgroundAudio.Stop();
             levelOneInterface.SetActive(true);
             Timer.timerOn = false;
         }
