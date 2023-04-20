@@ -32293,6 +32293,7 @@ GameObject:
   - component: {fileID: 6628768608872713713}
   - component: {fileID: 2171251076677064336}
   - component: {fileID: 6124318215100271582}
+  - component: {fileID: 6628768608872713714}
   m_Layer: 0
   m_Name: Shelf
   m_TagString: Untagged
@@ -32471,6 +32472,20 @@ Transform:
   m_Father: {fileID: 543450653365793736}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6628768608872713714
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5997412525618052920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4552961407312753236, guid: 3e356953ebb8494439fff6c9744e9ea0, type: 3}
 --- !u!23 &6630330529360399895
 MeshRenderer:
   m_ObjectHideFlags: 0
