@@ -7,10 +7,12 @@ public class HandController : MonoBehaviour
     public InputActionReference triggerInput;
 
     private Animator animator;
+    SkinnedMeshRenderer mesh;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        mesh = GetComponentInChildren<SkinnedMeshRenderer>();
     }
 
     void Update()
@@ -22,5 +24,10 @@ public class HandController : MonoBehaviour
 
         animator.SetFloat("Grip", grip);
         animator.SetFloat("Trigger", trigger);
+    }
+
+    public void ToggleVisibility()
+    {
+        mesh.enabled = !mesh.enabled;
     }
 }
