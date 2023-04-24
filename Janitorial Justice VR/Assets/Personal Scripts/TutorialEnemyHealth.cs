@@ -7,7 +7,9 @@ using TMPro;
 public class TutorialEnemyHealth : MonoBehaviour
 {
     public AudioSource winAudio;
-    public AudioSource backgroundAudio;
+    public AudioSource triggerZone1;
+    public AudioSource triggerZone2;
+    public AudioSource triggerZone3;
 
     [SerializeField] GameObject levelThreeInterface;
     [SerializeField] GameObject healthInterface;
@@ -29,7 +31,9 @@ public class TutorialEnemyHealth : MonoBehaviour
         {
             Destroy(gameObject);
             winAudio.Play();
-            backgroundAudio.Stop();
+            triggerZone1.Stop();
+            triggerZone2.Stop();
+            triggerZone3.Stop();
             levelThreeInterface.SetActive(true);
             Timer.timerOn = false;
         }

@@ -6,8 +6,9 @@ using TMPro;
 
 public class CraftingScript : MonoBehaviour
 {
-
-    public AudioSource backgroundAudio;
+    public AudioSource winAudio;
+    public AudioSource triggerZone1;
+    public AudioSource triggerZone2;
 
     public float crafting;
 
@@ -35,7 +36,9 @@ public class CraftingScript : MonoBehaviour
             levelTwoInterface.SetActive(true);
             Debug.Log("Crafted");
             Timer.timerOn = false;
-            backgroundAudio.Stop();
+            triggerZone1.Stop();
+            triggerZone2.Stop();
+            winAudio.Play();
         }
     }
 }

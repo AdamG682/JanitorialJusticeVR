@@ -10221,7 +10221,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.75
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -18454,6 +18454,9 @@ MonoBehaviour:
   snapshotLevels:
   - {fileID: 245032243383723930, guid: 88eaf73e098e842f2bac4c50282293e9, type: 2}
   - {fileID: 245793907652086912, guid: 88eaf73e098e842f2bac4c50282293e9, type: 2}
+  - {fileID: 245029000796629204, guid: 88eaf73e098e842f2bac4c50282293e9, type: 2}
+  - {fileID: 245786794323349984, guid: 88eaf73e098e842f2bac4c50282293e9, type: 2}
+  - {fileID: 245383424561740704, guid: 88eaf73e098e842f2bac4c50282293e9, type: 2}
   transitionTime: 0.75
 --- !u!1 &1301011497
 GameObject:
@@ -27113,7 +27116,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11, y: 10.2, z: 13}
+  m_Size: {x: 9.86, y: 10.2, z: 13}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &1752700511
 AudioSource:
