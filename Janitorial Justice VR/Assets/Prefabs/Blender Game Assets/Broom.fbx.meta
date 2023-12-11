@@ -3,7 +3,22 @@ guid: 6ece6c34e2821834590413048dd19ef9
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroomBottom
+    second: {fileID: 2100000, guid: 2a4a2c995ec37304fa0b7084ac4d43b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroomHandle
+    second: {fileID: 2100000, guid: e438b70aa5f0cf249a28d3130e8fa618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroomHead
+    second: {fileID: 2100000, guid: 61aa2aba969adc84cb368cdf0f87fe60, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

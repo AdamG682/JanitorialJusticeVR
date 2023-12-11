@@ -3,7 +3,32 @@ guid: 41ea6041d2aeb064c84b1090a3db39a6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Locker
+    second: {fileID: 2100000, guid: f6137a9e4fc445c47b0c85ae4954c244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Locker_Door
+    second: {fileID: 2100000, guid: 92e0c0c7082625f4aae978f8c724e2ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Locker_Handle
+    second: {fileID: 2100000, guid: af38cde89e808db49bb0a41a09b018c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Locker_Legs
+    second: {fileID: 2100000, guid: a1f2b880089b1ca4e87703574c0bc391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Locker_Shelf_Wall
+    second: {fileID: 2100000, guid: 76d07a7b4fb85544994d096e03c3d33f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
