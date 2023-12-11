@@ -12,7 +12,7 @@ void GetMainLightData_float(out half3 direction, out half3 color)
 
 #if defined(UNIVERSAL_LIGHTING_INCLUDED)
 
-    light mainLight = GetMainLight();
+    Light mainLight = GetMainLight();
     direction = mainLight.direction;
     color = mainLight.color;
 
