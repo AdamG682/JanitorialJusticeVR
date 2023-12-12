@@ -17,6 +17,9 @@ public class TutorialEnemyHealth : MonoBehaviour
     private float health= 200;
     public TextMeshProUGUI healthCounter;
 
+    //particle system
+    public ParticleSystem destroyEffectParticleSystem;
+
     void Start()
     {
         TakeDamage(0);
@@ -29,6 +32,12 @@ public class TutorialEnemyHealth : MonoBehaviour
 
         if (health <= 0)
         {
+
+            var em = destroyEffectParticleSystem.emission;
+
+            em.enabled = true;
+            destroyEffectParticleSystem.Play();
+
             Destroy(gameObject);
             winAudio.Play();
             triggerZone1.Stop();
