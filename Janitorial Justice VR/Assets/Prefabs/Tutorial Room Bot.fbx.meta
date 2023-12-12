@@ -28,7 +28,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -36,7 +37,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -92,7 +93,227 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Tutorial Room Bot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Upper_Leg
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.03957967, y: 4.2916527, z: 0.85038984}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Bottom_Leg
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.03957967, y: 1.7894374, z: 0.85038984}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.035926178, y: 2.9859762, z: 0.85092634}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Knee.001
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.019058134, y: 2.9859762, z: -0.88190424}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Bottom_Leg
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.015832266, y: 1.7894374, z: -0.8837014}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Upper_Leg
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.015832266, y: 4.2916527, z: -0.8837014}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Leg_Base
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 5.19701, z: -0.8793766}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Leg_Base
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 5.19701, z: 0.87951046}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212405, y: 8.122169, z: -1.8954052}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: Left_Arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000075497894, y: -1, z: 0.00000008940697, w: 0.00000004371139}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999999}
+    - name: Bone.004
+      parentName: Bone
+      position: {x: -0.0000000055879354, y: 0.8017776, z: -0.0000000114087015}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1}
+    - name: Bone.003
+      parentName: Bone.004
+      position: {x: -0.000000029802322, y: 0.8017776, z: -0.00000013783574}
+      rotation: {x: -4.2351647e-22, y: -0, z: 7.1054274e-15, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000002}
+    - name: Bone.002
+      parentName: Bone.003
+      position: {x: 0.000000029802322, y: 0.8017777, z: -0.000000007450581}
+      rotation: {x: 6.352747e-22, y: 1.5046328e-36, z: -1.4210855e-14, w: 1}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1}
+    - name: Bone.001
+      parentName: Bone.002
+      position: {x: -0.000000014901161, y: 0.80177784, z: -0.00000015739352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: Bone.001_end
+      parentName: Bone.001
+      position: {x: -0, y: 0.8017776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm_Base
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 8.104193, z: -1.8793339}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm_Controller
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.46486282, y: 4.4689603, z: -2.7930632}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 8.122169, z: 1.9041034}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: Right_Arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: 3.5527137e-15, z: 0.000000043711385, w: 0.00000008940697}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Bone.004
+      parentName: Bone
+      position: {x: -0.0000000060535967, y: 0.8017776, z: -0.00000001071021}
+      rotation: {x: 0.63864166, y: 0.000000006378753, z: 0.03193214, w: 0.76884145}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+    - name: Bone.003
+      parentName: Bone.004
+      position: {x: 0.000000031148375, y: 0.8017775, z: 0.0000000021318556}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Bone.002
+      parentName: Bone.003
+      position: {x: 0.0000001322478, y: 0.80177766, z: 0.000000034458935}
+      rotation: {x: -0.63864166, y: -0.0000000054271, z: -0.03193214, w: 0.76884145}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Bone.001
+      parentName: Bone.002
+      position: {x: -0, y: 0.80177766, z: -0.000000059604645}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Bone.001_end
+      parentName: Bone.001
+      position: {x: -0, y: 0.8017776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm_Base
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 8.104193, z: 1.8902142}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm_Controller
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.08640994, y: 9.502277, z: 0.054377064}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm_Skin
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.04621196, y: 8.105347, z: -4.8252883}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm_Skin
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 8.105347, z: 4.8339863}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Button
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.73743004, y: 7.222701, z: 0.9346299}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Button.001
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.73743004, y: 6.4844155, z: -0.5134826}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Button.002
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.73743004, y: 6.2146115, z: -0.5134826}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Button.003
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.73743004, y: 5.931054, z: -0.5134826}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Screen
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0.72187185, y: 7.6842017, z: -0.5011279}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Body
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 7.5995173, z: 0.002109935}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: -0, y: 9.06447, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: Neck
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.70944214, y: -0, z: -2.8141839e-16, w: 0.70476377}
+      scale: {x: 1, y: 0.9999999, z: 0.99999976}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: 2.808065e-10, y: 0.3588851, z: -2.5670488e-10}
+      rotation: {x: -0.0033081765, y: 1.9899282e-16, z: 1.9899285e-16, w: 0.9999945}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.99999994}
+    - name: Bone.001_end
+      parentName: Bone.001
+      position: {x: -0, y: 1.9244573, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Base
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 9.208132, z: 0.002109935}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Controller
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.08640994, y: 11.562515, z: 0.054377064}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_Skin
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 9.722123, z: 0.025085598}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Head
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 11.3459215, z: 0.002109935}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Face
+      parentName: Tutorial Room Bot(Clone)
+      position: {x: 0.046212256, y: 11.3459215, z: 0.002109935}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -103,13 +324,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

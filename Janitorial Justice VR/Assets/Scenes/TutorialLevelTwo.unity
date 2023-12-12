@@ -15042,6 +15042,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7141391792780284071, guid: 09b22390692bc2a4eaf6ede749f9934a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0133088
+      objectReference: {fileID: 0}
+    - target: {fileID: -7141391792780284071, guid: 09b22390692bc2a4eaf6ede749f9934a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.502277
+      objectReference: {fileID: 0}
+    - target: {fileID: -7141391792780284071, guid: 09b22390692bc2a4eaf6ede749f9934a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.7492878
+      objectReference: {fileID: 0}
     - target: {fileID: -786480672286598207, guid: 09b22390692bc2a4eaf6ede749f9934a,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -15152,6 +15167,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 09b22390692bc2a4eaf6ede749f9934a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7227797809708479872, guid: 09b22390692bc2a4eaf6ede749f9934a,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -15225,6 +15245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 961717975}
+  - component: {fileID: 961717976}
   m_Layer: 0
   m_Name: Trainer
   m_TagString: Untagged
@@ -15249,6 +15270,26 @@ Transform:
   m_Father: {fileID: 1305213150}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &961717976
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961717974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 09b22390692bc2a4eaf6ede749f9934a, type: 3}
+  m_Controller: {fileID: 9100000, guid: c4820db0b0dc4bd4fbb07c2d9b15b1df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &982562433
 GameObject:
   m_ObjectHideFlags: 0
