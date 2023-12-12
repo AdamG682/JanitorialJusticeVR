@@ -29184,6 +29184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioPlayer: {fileID: 1465063151}
+  hitEffectParticleSystem: {fileID: 39821111}
 --- !u!1 &1984083175
 GameObject:
   m_ObjectHideFlags: 0
@@ -29666,6 +29667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioPlayer: {fileID: 1465063151}
+  hitEffectParticleSystem: {fileID: 39821111}
 --- !u!1 &2010366889
 GameObject:
   m_ObjectHideFlags: 0

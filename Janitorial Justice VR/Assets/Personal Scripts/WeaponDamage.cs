@@ -12,6 +12,9 @@ public class WeaponDamage : MonoBehaviour
     private float wetFloor = 5;
     private float sponge = 1;
 
+    //particle system
+    public ParticleSystem hitEffectParticleSystem;
+
 
     private void OnTriggerEnter (Collider other)
     {
@@ -27,6 +30,11 @@ public class WeaponDamage : MonoBehaviour
 
                 enemyComponent.TakeDamage(wetFloor);
                 Debug.Log("5 Damage Taken");
+
+                var em = hitEffectParticleSystem.emission;
+
+                em.enabled = true;
+                hitEffectParticleSystem.Play();
             }
         }
 
@@ -42,6 +50,12 @@ public class WeaponDamage : MonoBehaviour
 
                 enemyComponent.TakeDamage(sponge);
                 Debug.Log("1 Damage Taken");
+
+                var em = hitEffectParticleSystem.emission;;
+
+                em.enabled = true;
+                hitEffectParticleSystem.Play();
+
             }
         }
     }
