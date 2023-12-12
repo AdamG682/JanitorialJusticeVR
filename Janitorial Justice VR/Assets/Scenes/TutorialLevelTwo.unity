@@ -7471,6 +7471,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -2023396666245080163, guid: 1a7faa8de8d067349827bcd3eab4c4e2, type: 3}
+  - {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12801,7 +12802,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
+      objectReference: {fileID: -2167614946489912369, guid: ae01d5847da9f3c47be0c5063cb12dc5,
+        type: 3}
     - target: {fileID: 637973127489339153, guid: ae01d5847da9f3c47be0c5063cb12dc5,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13371,6 +13373,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -7918335002988649766, guid: b1a0a3144f4e34141a3cc2759de1c300,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7918335002988649766, guid: b1a0a3144f4e34141a3cc2759de1c300,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
     - target: {fileID: -7029948723529949830, guid: b1a0a3144f4e34141a3cc2759de1c300,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13420,7 +13432,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[8]
       value: 
-      objectReference: {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
+      objectReference: {fileID: -8012134935271285808, guid: b1a0a3144f4e34141a3cc2759de1c300,
+        type: 3}
     - target: {fileID: 5148817236446094103, guid: b1a0a3144f4e34141a3cc2759de1c300,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21586,7 +21599,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.35
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -22394,6 +22407,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -2023396666245080163, guid: 1a7faa8de8d067349827bcd3eab4c4e2, type: 3}
+  - {fileID: 2100000, guid: dbfee32c274e4df4798ad47426f222df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
