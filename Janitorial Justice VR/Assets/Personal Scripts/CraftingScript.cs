@@ -14,7 +14,7 @@ public class CraftingScript : MonoBehaviour
 
     [SerializeField] GameObject levelTwoInterface;
     [SerializeField] GameObject ComboBroom;
-
+    [SerializeField] GameObject Test;
 
     private void OnTriggerEnter(Collider other)
     {

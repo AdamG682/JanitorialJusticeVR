@@ -16,6 +16,7 @@ public class CraftManager : MonoBehaviour
     void Start()
     {
         CraftedItem(0);
+
     }
 
     public void CraftedItem (float items)
